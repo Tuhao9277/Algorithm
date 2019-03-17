@@ -8,7 +8,7 @@ package DB.Graph;
  */
 public class graphDFS {
     public static class Graph {
-
+        public int array;
     }
 
 }
