@@ -123,7 +123,7 @@ public class trie {
         trie.delete("zuo");
         System.out.println(trie.search("zuo"));
         trie.insert("zuoa");
-        trie.insert("zuoac");
+        trie.insert("zuoacb");
         trie.insert("zuoab");
         trie.insert("zuoad");
         trie.delete("zuoa");

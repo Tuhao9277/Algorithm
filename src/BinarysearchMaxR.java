@@ -1,4 +1,4 @@
-public class searchMax {
+public class BinarysearchMaxR {
     public static int getMax(int[] arr,int l,int r){
         if (l == r){
             return arr[l];
