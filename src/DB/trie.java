@@ -92,7 +92,48 @@ public class trie {
             return node.end;
         }
 
+        public int prefixNumber(String pre) {
+            if (pre == null) {
+                return 0;
+            }
+            char[] chs = pre.toCharArray();
+            TrieNode node = root;
+            int index=0;
+            for (int i = 0; i < chs.length; i++) {
+                index = chs[i] -'a';
+                if (node.nexts[index] == null) {
+                    return 0;
+                }
+                node = node.nexts[index];
+            }
+            return node.pass;
+        }
     }
+
+    public static void main(String[] args) {
+        Trie trie = new Trie();
+        System.out.println(trie.search("zuo"));
+        trie.insert("zuo");
+        System.out.println(trie.search("zuo"));
+        trie.delete("zuo");
+        System.out.println(trie.search("zuo"));
+        trie.insert("zuo");
+        trie.insert("zuo");
+        trie.delete("zuo");
+        System.out.println(trie.search("zuo"));
+        trie.delete("zuo");
+        System.out.println(trie.search("zuo"));
+        trie.insert("zuoa");
+        trie.insert("zuoac");
+        trie.insert("zuoab");
+        trie.insert("zuoad");
+        trie.delete("zuoa");
+        System.out.println(trie.search("zuoa"));
+        System.out.println(trie.prefixNumber("zuo"));
+
+    }
+
+
 
 
 }
