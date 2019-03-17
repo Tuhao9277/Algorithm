@@ -86,7 +86,6 @@ public class trie {
                 if (node.nexts[index] == null) {
                     return 0;
                 }
-                //查询尾
                 node = node.nexts[index];
             }
             return node.end;
