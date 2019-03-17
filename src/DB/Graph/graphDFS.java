@@ -7,4 +7,8 @@ package DB.Graph;
  * @Created by guo
  */
 public class graphDFS {
+    public static class Graph {
+
+    }
+
 }
