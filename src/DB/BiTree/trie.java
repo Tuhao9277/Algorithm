@@ -1,4 +1,4 @@
-package DB;
+package DB.BiTree;
 
 /**
  * @Classname trie
