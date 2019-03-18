@@ -50,33 +50,28 @@ public class trie {
         }
 
         public void delete(String word) {
-            if (word == null) {
-                return;
-            }
-            char[] chs = word.toCharArray();
-            TrieNode node = root;
-
-            //node.pass--;
-
-            int index = 0;
-            for (int i = 0; i < chs.length; i++) {
-                //删除操作,注意多个字符链共享一个字符的情况
-                //如果第二个字符链上只剩下1条
-                if (--node.nexts[i].pass == 0) {
+            if (search(word)) {
+                char[] chs = word.toCharArray();
+                TrieNode node = root;
+                //node.pass--;
+                int index = 0;
+                for (int i = 0; i < chs.length; i++) {
+                    //删除操作,注意多个字符链共享一个字符的情况
+                    //如果第二个字符链上只剩下1条
                     index = chs[i] - 'a';
-                    node.nexts[index] = null;
-                    return;
+                    if (node.nexts[index].pass-- == 1) {
+                        node.nexts[index] = null;
+                        return;
+                    }
+                    node = node.nexts[index];
                 }
-                node = node.nexts[index];
-
                 node.end--;
             }
-
         }
 
-        public int search(String word) {
+        public boolean search(String word) {
             if (word == null) {
-                return 0;
+                return false;
             }
             char[] chs = word.toCharArray();
             TrieNode node = root;
@@ -84,11 +79,17 @@ public class trie {
             for (int i = 0; i < chs.length; i++) {
                 index = chs[i] - 'a';
                 if (node.nexts[index] == null) {
-                    return 0;
+                    return false;
                 }
                 node = node.nexts[index];
             }
-            return node.end;
+            return node.end != 0;
+        }
+
+        public void prefix() {
+            TrieNode cur = root;
+            int index = 0;
+
         }
 
         public int prefixNumber(String pre) {
@@ -97,12 +98,13 @@ public class trie {
             }
             char[] chs = pre.toCharArray();
             TrieNode node = root;
-            int index=0;
+            int index = 0;
             for (int i = 0; i < chs.length; i++) {
-                index = chs[i] -'a';
+                index = chs[i] - 'a';
                 if (node.nexts[index] == null) {
                     return 0;
                 }
+
                 node = node.nexts[index];
             }
             return node.pass;
@@ -111,28 +113,30 @@ public class trie {
 
     public static void main(String[] args) {
         Trie trie = new Trie();
-        System.out.println(trie.search("zuo"));
-        trie.insert("zuo");
-        System.out.println(trie.search("zuo"));
-        trie.delete("zuo");
-        System.out.println(trie.search("zuo"));
-        trie.insert("zuo");
-        trie.insert("zuo");
-        trie.delete("zuo");
-        System.out.println(trie.search("zuo"));
-        trie.delete("zuo");
-        System.out.println(trie.search("zuo"));
-        trie.insert("zuoa");
-        trie.insert("zuoacb");
-        trie.insert("zuoab");
-        trie.insert("zuoad");
-        trie.delete("zuoa");
-        System.out.println(trie.search("zuoa"));
-        System.out.println(trie.prefixNumber("zuo"));
+        String[] strs = new String[]{"flower", "flow", "flight"};
+        for (int i = 0; i < strs.length; i++) {
+            trie.insert(strs[i]);
+        }
+//        System.out.println(trie.search("zuo"));
+//        trie.insert("zuo");
+//        System.out.println(trie.search("zuo"));
+//        trie.delete("zuo");
+//        System.out.println(trie.search("zuo"));
+//        trie.insert("zuo");
+//        trie.insert("zuo");
+//        trie.delete("zuo");
+//        System.out.println(trie.search("zuo"));
+//        trie.delete("zuo");
+//        System.out.println(trie.search("zuo"));
+//        trie.insert("zuoa");
+//        trie.insert("zuoacb");
+//        trie.insert("zuoab");
+//        trie.insert("zuoad");
+//        trie.delete("zuoa");
+        System.out.println(trie.search("fl"));
+        System.out.println(trie.prefixNumber("flow"));
 
     }
-
-
 
 
 }

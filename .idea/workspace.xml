@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a6636a6-0a6d-4ce1-9290-8f151088c345" name="Default Changelist" comment="图">
-      <change afterPath="$PROJECT_DIR$/src/DB/Graph/Graph.java" afterDir="false" />
+    <list default="true" id="5a6636a6-0a6d-4ce1-9290-8f151088c345" name="Default Changelist" comment="图,深度，广度">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DB/BiTree/DescendantNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/BiTree/DescendantNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DB/Graph/graphDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DB/PNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/BiTree/PNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DB/trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/BiTree/trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DB/BiTree/trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/BiTree/trie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UnionSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="360">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,57 +54,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DB/BiTree/trie.java">
+        <entry file="file://$PROJECT_DIR$/src/DB/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DB/Graph/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DB/Graph/BFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#505#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DB/Graph/DFS.java">
+        <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/ReverseList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DB/Graph/GraphGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="252">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -147,10 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DB/TwoQueueToStack.java" />
-        <option value="$PROJECT_DIR$/src/DB/TwoStackToQueue.java" />
-        <option value="$PROJECT_DIR$/src/DB/ArrayStock.java" />
-        <option value="$PROJECT_DIR$/src/SnakeMatrix.java" />
         <option value="$PROJECT_DIR$/src/Arrays/SnakeMatrix.java" />
         <option value="$PROJECT_DIR$/src/Arrays/findK.java" />
         <option value="$PROJECT_DIR$/src/SortingAlgorithm/HeapSort.java" />
@@ -198,6 +153,10 @@
         <option value="$PROJECT_DIR$/src/DB/Graph/GraphGenerator.java" />
         <option value="$PROJECT_DIR$/src/DB/Graph/BFS.java" />
         <option value="$PROJECT_DIR$/src/DB/Graph/DFS.java" />
+        <option value="$PROJECT_DIR$/src/DB/Graph/Topology.java" />
+        <option value="$PROJECT_DIR$/src/DB/BiTree/trie.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/DB/LinkedList/ReverseList.java" />
       </list>
     </option>
   </component>
@@ -208,9 +167,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="651" />
     <option name="y" value="22" />
-    <option name="width" value="715" />
+    <option name="width" value="1366" />
     <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -221,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +196,12 @@
               <item name="untitled01" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,20 +209,32 @@
               <item name="untitled01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DB" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552793787255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552908818946" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -279,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="Comparators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Comparators" />
       <module name="Algorithm" />
@@ -287,16 +264,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithm.HeapSort" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Palindrome" />
       <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSortExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithm.QuickSortExp" />
-      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,20 +303,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DB.BiTree.trie" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DB.BiTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.QuickSortExp" />
-      <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.Comparators" />
       <item itemvalue="Application.Traversal" />
       <item itemvalue="Application.TrappingRainWater" />
+      <item itemvalue="Application.trie" />
+      <item itemvalue="Application.Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.trie" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.Traversal" />
         <item itemvalue="Application.Comparators" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.QuickSortExp" />
       </list>
     </recent_temporary>
   </component>
@@ -385,6 +374,7 @@
       <workItem from="1552654483634" duration="4750000" />
       <workItem from="1552716219474" duration="5820000" />
       <workItem from="1552786788164" duration="2604000" />
+      <workItem from="1552891005123" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="增加测试用例，和寻找前缀的方法">
       <created>1552787789148</created>
@@ -456,11 +446,32 @@
       <option name="project" value="LOCAL" />
       <updated>1552789949932</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="图,深度，广度">
+      <created>1552793671795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552793671795</updated>
+    </task>
+    <task id="LOCAL-00012" summary="图,深度，广度">
+      <created>1552793825492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552793825492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="图,深度，广度">
+      <created>1552793981153</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552793981153</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100159000" />
+    <option name="totallyTimeSpent" value="108727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,10 +483,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="651" y="22" width="715" height="696" extended-state="0" />
+    <frame x="0" y="22" width="1366" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" weight="0.28083208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.17522658" />
       <window_info id="Structure" order="1" sideWeight="0.50248754" side_tool="true" weight="0.24622357" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,7 +535,8 @@
     <MESSAGE value="增加测试用例，和寻找前缀的方法" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="图" />
-    <option name="LAST_COMMIT_MESSAGE" value="图" />
+    <MESSAGE value="图,深度，广度" />
+    <option name="LAST_COMMIT_MESSAGE" value="图,深度，广度" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -532,25 +544,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AlgoVisHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -590,27 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortingAlgorithm/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding>
-            <element signature="method#swap#0;class#HeapSort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/CopyRandomList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="class#Node#0;class#CopyRandomList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -726,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="9" selection-start-line="10" selection-start-column="6" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DB/BiTree/DescendantNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -810,23 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/ListPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -855,34 +804,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/BiTree/trie.java">
+    <entry file="file://$PROJECT_DIR$/src/DB/Graph/Topology.java" />
+    <entry file="file://$PROJECT_DIR$/src/DB/Graph/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/Graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="189">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#379#386#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/Graph/GraphGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DB/Graph/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
+          <caret line="38" column="9" selection-start-line="19" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#498#505#0" expanded="true" />
@@ -890,14 +827,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DB/Graph/DFS.java">
+    <entry file="file://$PROJECT_DIR$/src/DB/Graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="36">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#379#386#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/ListPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/CopyRandomList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="class#Node#0;class#CopyRandomList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/Graph/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/BiTree/trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding>
+            <element signature="method#delete#0;class#Trie#0;class#trie#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithm/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortingAlgorithm/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <element signature="method#swap#0;class#HeapSort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DB/LinkedList/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
