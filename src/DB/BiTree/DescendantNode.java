@@ -1,5 +1,7 @@
 package DB.BiTree;
 
+import DB.PNode;
+
 /**
  * @Classname DescendantNode
  * @Description TODO
